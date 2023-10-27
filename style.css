@@ -1,1 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    background: #eee;
+    margin:auto;
+    font-family:'Source Sans Pro';
+}
+
+/* Whole newspaper container */
+.newspaper-container {
+    width: 75%;
+    background: white;
+    margin: 3em auto;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: .5em .5em .5em #ddd;
+}
+
+/* Header */
+h1 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    border-top: .15em solid #eee;
+    border-bottom: .15em solid #eee;
+    text-align:center;
+}
+
+nav ul {
+    list-style: none;
+    padding:0;
+}
+nav li {
+    display: inline-block;
+    margin: 0em .5em;
+}
+
+nav li a {
+    text-decoration: none;
+    color:#777;
+}
+
+/* Article titles */
+h2,h3,h4,h5 {
+    font-family: 'Roboto Slab';
+    text-align:left;
+}
+
+/* Front Page Article */
+main h5 {
+    color: #dd3232;
+}
+main img{
+    width:100%;
+}
+main p {
+    padding: 0em .5em;
+    text-align:justify;
+}
+
+/* More Articles */
+.more-articles {
+    text-align: center;
+}
+.more-articles section {
+    display: inline-block;
+    width:45%;
+    margin:0em .5em;
+}
+.more-articles img {
+    width:100%;
+}
+.more-articles p{
+    text-align: justify;
+    padding:0em .5em;
+}
