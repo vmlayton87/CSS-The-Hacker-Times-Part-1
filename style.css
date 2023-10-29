@@ -27,6 +27,9 @@ nav {
     border-top: .15em solid #eee;
     border-bottom: .15em solid #eee;
     text-align:center;
+    position: sticky;
+    top: 0em;
+    background-color: white;
 }
 
 nav ul {
@@ -76,4 +79,40 @@ main p {
 .more-articles p{
     text-align: justify;
     padding:0em .5em;
+}
+
+/* Grid Article Tryout */
+.grid-articles {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grid-articles section {
+    margin: 0em .5em;
+    text-align: justify;
+}
+
+.grid-articles img {
+    width: 100%;
+}
+
+.grid-articles p {
+    padding: .5em;
+}
+
+/* Footer */
+footer {
+    text-align:center;
+    position: relative;
+    top:-2em;
+}
+
+footer ul {
+    list-style: none;
+    padding:0;
+    
+}
+footer li {
+    display: inline-block;
+    margin: 0em .5em;
 }
